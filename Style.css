@@ -1,0 +1,304 @@
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px; /* Tamaño de fuente reducido para dispositivos móviles */
+        display: grid;
+        overflow-x: hidden;
+        grid-template-areas: 
+        "titulo"
+        "mascotas"
+        "articulo"
+        "foto1"
+        "foto2"
+        "foto3"
+        "foto4"
+        "foto5"
+        "foto6"
+        "foto7"
+        "foto8"
+        "curiosidades"
+        "footer";
+    }
+    header{
+        padding: 15px;
+        margin: -10px;
+        grid-area: titulo;
+        background-color: rgb(128, 179, 237);
+        text-align: center;
+        justify-content: space-between;
+    }
+    #mascotas{
+        margin-top: 5px;
+        grid-area: mascotas;
+        max-width:  100vw; 
+    }
+    #quees{
+        margin-left: 20%;
+        margin-right: 20%;
+        text-align: center;
+        margin-top: 5px;
+        max-width: 90vw;
+    }
+    #titulo{
+        color: rgb(128, 179, 237);
+    }
+    .texto{
+        grid-area: articulo;
+        max-width: 90vw;
+        background-color: rgb(240, 248, 255);
+    }
+    #gallery{
+        text-align: center;
+    }
+    #faleria{
+        color: rgb(128, 179, 237);
+    }
+    img{
+        max-width:  50vw;
+        border-radius: 20px;
+        padding: 5px
+    }
+    #foto1{
+        grid-area: foto1;
+    }
+    #foto2{
+        grid-area: foto2;
+    }
+    #foto3{
+        grid-area: foto3;
+    }
+    #foto4{
+        grid-area: foto4;
+    }
+    #foto5{
+        grid-area: foto5;
+    }
+    #foto6{
+        grid-area: foto6;
+    }
+    #foto7{
+        grid-area: foto7;
+    }
+    #foto8{
+        grid-area: foto8;
+    }
+    aside{
+        grid-area: curiosidades;
+        background-color: rgb(240, 248, 255);
+        max-width: 90vw;
+    }
+    footer{
+        padding: 15px;
+        margin: -10px;
+        grid-area: footer;
+        text-align: center;
+        background-color: rgb(128, 179, 237);
+    }
+    h2{
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 15px; /* Tamaño de fuente reducido para tabletas */
+        display: grid;
+        overflow-x: hidden;
+        grid-template-areas: 
+        "titulo titulo"
+        "mascotas mascotas"
+        "articulo articulo"
+        "foto1 foto2"
+        "foto3 foto4"
+        "foto5 foto6"
+        "foto7 foto8"
+        "curiosidades curiosidades"
+        "footer footer";
+    }
+    header{
+        padding: 15px;
+        margin: -10px;
+        grid-area: titulo;
+        background-color: rgb(128, 179, 237);
+        text-align: center;
+        justify-content: space-between;
+    }
+    #mascotas{
+        margin-top: 6px;
+        grid-area: mascotas;
+        max-width:  92vw; 
+    }
+    #quees{
+        margin-left: 20%;
+        margin-right: 20%;
+        text-align: center;
+        margin-top: 5px;
+        max-width: 90vw;
+    }
+    #titulo{
+        color: rgb(128, 179, 237);
+    }
+    .texto{
+        margin-top: 30px;
+        padding: 20px;
+        grid-area: articulo;
+        max-width: 100vw;
+        background-color: rgb(240, 248, 255);
+    }
+    #gallery{
+        padding: 5%;
+        text-align: center;
+    }
+    #galeria{
+        color: rgb(128, 179, 237);
+    }
+    img{
+        max-width:  30vw;
+        border-radius: 20px;
+        padding: 5px
+    }
+    #foto1{
+        grid-area: foto1;
+    }
+    #foto2{
+        grid-area: foto2;
+    }
+    #foto3{
+        grid-area: foto3;
+    }
+    #foto4{
+        grid-area: foto4;
+    }
+    #foto5{
+        grid-area: foto5;
+    }
+    #foto6{
+        grid-area: foto6;
+    }
+    #foto7{
+        grid-area: foto7;
+    }
+    #foto8{
+        grid-area: foto8;
+    }
+    aside{
+        padding: 5%;
+        grid-area: curiosidades;
+        background-color: rgb(240, 248, 255);
+        max-width: 100vw;
+    }
+    footer{
+        padding: 15px;
+        margin: -10px;
+        grid-area: footer;
+        text-align: center;
+        background-color: rgb(128, 179, 237);
+    }
+    h2{
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    body {
+        font-size: 17px; /* Tamaño de fuente aumentado para ordenadores */
+        display: grid;
+        overflow-x: hidden;
+        grid-template-areas: 
+        "titulo titulo titulo"
+        "mascotas mascotas mascotas"
+        "articulo articulo articulo"
+        "foto1 foto2 foto3"
+        "foto4 foto5 foto6"
+        "foto7 foto8"
+        "curiosidades curiosidades curiosidades"
+        "footer footer footer";
+    }
+    header{
+        padding: 15px;
+        margin: -10px;
+        grid-area: titulo;
+        background-color: rgb(128, 179, 237);
+        text-align: center;
+        justify-content: space-between;
+    }
+    #quees{
+        margin-left: 20%;
+        margin-right: 20%;
+        text-align: center;
+        margin-top: 5%;
+        grid-area: mascotas;
+        max-width:  96vw; 
+    }
+    #mascotas{
+  
+        margin-top: 5px;
+        min-width: 99vw;
+    }
+    #titulo{
+        color: rgb(128, 179, 237);
+    }
+    .texto{
+        margin-top: 30px;
+        padding: 20px;
+        grid-area: articulo;
+        max-width: 100vw;
+        background-color: rgb(240, 248, 255);
+    }
+    #gallery{
+        text-align: center;
+    }
+    #galeria{
+        color: rgb(128, 179, 237);
+    }
+    #photos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    img{
+        width: 25vw;
+        object-fit: cover;
+        border-radius: 20px;
+        padding: 5px
+    }
+    #foto1{
+        grid-area: foto1;
+    }
+    #foto2{
+        grid-area: foto2;
+    }
+    #foto3{
+        grid-area: foto3;
+    }
+    #foto4{
+        grid-area: foto4;
+    }
+    #foto5{
+        grid-area: foto5;
+    }
+    #foto6{
+        grid-area: foto6;
+    }
+    #foto7{
+        grid-area: foto7;
+    }
+    #foto8{
+        grid-area: foto8;
+    }
+    aside{
+        margin-bottom: -17px;
+        grid-area: curiosidades;
+        background-color: rgb(240, 248, 255);
+        max-width: 100vw;
+        padding: 10px;
+    }
+    footer{
+        padding: 15px;
+        margin: -10px;
+        grid-area: footer;
+        text-align: center;
+        background-color: rgb(128, 179, 237);
+    }
+    h2{
+        text-align: center;
+    }
+}
